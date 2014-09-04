@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Georgina Hughes - CV</title>
+
+    <link rel="stylesheet" href="/styles/cv.css"/>
+</head>
+<body data-ng-app="cvApp">
+    <h1>Georgina Hughes</h1>
+    <h2>Profile</h2>
+    <p></p>
+
+    <h2>Employment history</h2>
+
+    <h4>Choose skillsets to view</h4>
+    <fieldset>
+        <input type="checkbox" name="skills" id="skills" data-ng-model="skills"/>
+        <input type="checkbox" name="agile" id="agile" data-ng-model="agile"/>
+        <input type="checkbox" name="leader" id="leader" data-ng-model="leader"/>
+        <input type="checkbox" name="tech" id="tech" data-ng-model="tech"/>
+        <input type="checkbox" name="links" id="links" data-ng-model="links"/>
+    </fieldset>
+
+    <div class="timeline-wrapper">
+        <h3><a href="">betway.com</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+
+        <h3><a href="">Metia</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+
+        <h3><a href="">PCS Technology</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+
+        <h3><a href="">CML Software</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+
+        <h3><a href="">Abritas</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+
+        <h3><a href="">Solution7</a></h3>
+        <p data-ng-show="skills"></p>
+        <p data-ng-show="agile"></p>
+        <p data-ng-show="leader"></p>
+        <p data-ng-show="tech"></p>
+        <p data-ng-show="links"></p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.23/angular.min.js"></script>
+    <script src="/scripts/cvApp.js"></script>
+</body>
+</html>
